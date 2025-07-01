@@ -13,7 +13,7 @@ global.author = process.env.AUTHOR || "Cyber Kavi"
 global.creator = process.env.CREATOR || "94702128378@s.whatsapp.net"
 global.botprefix = process.env.BOTPREFIX || "."
 global.restart = process.env.RESTART || true
-global.mongoDB = process.env.MONGODB_URI || "ᴘᴜᴛ ʏᴏᴜʀ ᴍᴏɴɢᴏᴅʙ ᴜʀɪ ʜᴇʀᴇ."
+global.mongoDB = process.env.MONGODB_URI || "mongodb+srv://suddamax028:HgsXYPd6pCZOeePZ@cluster77.mlvtqez.mongodb.net/?retryWrites=true&w=majority&appName=Cluster77"
 
 let file = require.resolve(__filename)
 fs.watchFile(file, () => {
